@@ -7,6 +7,8 @@
 # Pull base image.
 FROM dockerfile/python
 
+EXPOSE  8081
+
 # Install Node.js
 RUN \
   cd /tmp && \
